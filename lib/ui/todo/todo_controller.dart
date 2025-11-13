@@ -1,7 +1,7 @@
-import 'package:dailytask_app/models/task_model.dart';
-import 'package:dailytask_app/services/todo_services/todo_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:planit/models/task_model.dart';
+import 'package:planit/services/todo_services/todo_service.dart';
 
 class TodoController extends GetxController {
   final TodoService _todoService = TodoService();

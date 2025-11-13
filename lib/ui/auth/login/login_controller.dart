@@ -1,8 +1,8 @@
-import 'package:dailytask_app/ui/todo/todo_view.dart';
-import 'package:dailytask_app/ui/utils/common_function.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:dailytask_app/ui/utils/app_colors.dart';
+import 'package:planit/ui/todo/todo_view.dart';
+import 'package:planit/ui/utils/app_colors.dart';
+import 'package:planit/ui/utils/common_function.dart';
 
 class LoginController extends GetxController {
   final TextEditingController emailController = TextEditingController();

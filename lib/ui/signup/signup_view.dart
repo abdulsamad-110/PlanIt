@@ -1,11 +1,11 @@
-import 'package:dailytask_app/ui/signup/signup_controller.dart';
-import 'package:dailytask_app/ui/utils/app_colors.dart';
-import 'package:dailytask_app/ui/widgets/mycustom_button.dart';
-import 'package:dailytask_app/ui/widgets/mycustom_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+import 'package:planit/ui/signup/signup_controller.dart';
+import 'package:planit/ui/utils/app_colors.dart';
+import 'package:planit/ui/widgets/mycustom_button.dart';
+import 'package:planit/ui/widgets/mycustom_textfield.dart';
 
 class SignupView extends StatelessWidget {
   const SignupView({super.key});

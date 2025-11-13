@@ -1,10 +1,10 @@
 import 'package:another_flushbar/flushbar.dart';
-import 'package:dailytask_app/storage_services/local_storage_service.dart';
-import 'package:dailytask_app/ui/utils/app_colors.dart';
-import 'package:dailytask_app/ui/utils/text_style.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:planit/ui/utils/app_colors.dart';
+import 'package:planit/ui/utils/text_style.dart';
 
 class CommonFunctions {
   ///// Show Custom GetX SnackBar
@@ -25,7 +25,7 @@ class CommonFunctions {
     );
   }
 
-  /// Flutter’s default SnackBar (simple, no icon)
+  /// Flutter’s default SnackBar
   static customSnackBar({required String msg, required Color color}) {
     return SnackBar(
       content: Text(

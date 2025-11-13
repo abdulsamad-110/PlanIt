@@ -1,10 +1,10 @@
-import 'package:dailytask_app/dialogs/task_dialog.dart';
-import 'package:dailytask_app/models/task_model.dart';
-import 'package:dailytask_app/ui/todo/todo_controller.dart';
-import 'package:dailytask_app/ui/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:planit/dialogs/task_dialog.dart';
+import 'package:planit/models/task_model.dart';
+import 'package:planit/ui/todo/todo_controller.dart';
+import 'package:planit/ui/utils/app_colors.dart';
 
 class TodoView extends StatelessWidget {
   const TodoView({super.key});

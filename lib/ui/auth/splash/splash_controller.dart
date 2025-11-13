@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:dailytask_app/ui/auth/login/login_view.dart';
 import 'package:get/get.dart';
+import 'package:planit/ui/auth/login/login_view.dart';
 
 class SplashController extends GetxController {
   @override

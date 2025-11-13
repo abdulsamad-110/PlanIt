@@ -1,8 +1,8 @@
-import 'package:dailytask_app/ui/auth/login/login_view.dart';
-import 'package:dailytask_app/ui/auth/splash/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+
+import 'package:planit/ui/auth/splash/splash_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           // theme: ThemeData(scaffoldBackgroundColor: AppColors.whiteColor),
           home: const SplashView(),
-          //home: ProductdetailView(),
+          // home: HomeView(),
         );
       },
     );

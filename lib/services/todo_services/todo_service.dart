@@ -1,4 +1,4 @@
-import 'package:dailytask_app/models/task_model.dart';
+import 'package:planit/models/task_model.dart';
 
 class TodoService {
   // Temporary local list
